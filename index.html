@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AllergyBites</title>
+    <link rel="shortcut icon" href="assets/Moodboard/Sin.png">
+</head>
+<body>
+
+    <div class="mainDiv">
+        <h1>Firebase</h1>
+        <textarea id="mainText" cols="30" rows="10" placeholder="Enter text here..."></textarea>
+        <button id="submitBtn">Click me</button>
+    </div>
+    
+
+
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBhGWWeKj-GpQV7JzujZCE-fzms0LoZgZ4",
+    authDomain: "social-network-682a3.firebaseapp.com",
+    databaseURL: "https://social-network-682a3.firebaseio.com",
+    projectId: "social-network-682a3",
+    storageBucket: "social-network-682a3.appspot.com",
+    messagingSenderId: "307635345259"
+  };
+  firebase.initializeApp(config);
+
+</script>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
